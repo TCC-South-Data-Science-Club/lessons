@@ -4,7 +4,6 @@ Agenda for meeting one 3/13/2026
 Topics that need to be covered:
 
 - Introductions
-- Goal of Club
 - Club Constitution
 - Responsibilities of officers
 - Environment Setup
@@ -21,15 +20,8 @@ Topics that need to be covered:
 - Introduce Officers
 - (This is really so Advisors can get acquainted with current members. Everyone pretty much already knows eachother).
 
-## Goal of Club
-List the goals of the Data Science club, and what members can expect to acomplish.
-
-<!-- TO DO: LIST THE GOALS -->
-
 ## Club Constitution
-Give general overview of club Constitution
-
-- 
+[link](https://github.com/TCC-South-Data-Science-Club/org-docs/blob/main/constitution.md) 
 
 ## Responsibilities of Officers
 List the Responsibilities of Officers
@@ -70,7 +62,7 @@ View club constitution for more detailed overview
     - Manage and track tickets in CRM
 
 ## Environment Setup
-This will be the bulk of the first meeting. Walk club members through installation of WSL, Python, Anaconda, Github/Git, and VSCode. I will need a volunteer bc I do not have Windows :P
+This will be the bulk of the first meeting. Walk club members through installation of WSL, Python, Anaconda, Github/Git, and VSCode. I will need a volunteer bc I do not have Windows \:P
 
 More detailed guide can be found on the Org github README.md
 
@@ -82,19 +74,23 @@ More detailed guide can be found on the Org github README.md
     - Launch Ubuntu. Follow prompt to create new Linux user.
 
 - Python
-    - <!-- TODO: FILL IN PYTHON/ANACONDA INSTALL NOTES -->
-    Standalone Python is not necessary to install as it is contained within the Anaconda install
+    - Standalone Python is not necessary to install as it is contained within the Anaconda install
 
-- Anaconda
-    <!-- TODO: FILL IN PYTHON/ANACONDA INSTALL NOTES -->
-
+- Anaconda 
+    - curl -O https://repo.anaconda.com/archive/Anaconda3-2025.12-2-Linux-x86_64.sh
+    - bash ~/Anaconda3-2025.12-2-Linux-x86_64.sh
 
 - Github
     - Have all members create a github account with 2FA and invite them to the github organization
 
 - Git
     - sudo apt install git
+    - git config --global user.name "Name"
+    - git config --global user.email "email"
+    - git config --global core.editor "vim"
+    - git config --global core.autocrlf input
+    - git config --global core.safecrlf true
 
 - IDE install
-    - Guide everyone through installing VSCode. Download installer from Microsoft website
+    - Guide everyone through installing VSCode. Download installer from [Microsoft website](https://code.visualstudio.com/download)
 
